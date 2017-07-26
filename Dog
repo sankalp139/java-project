@@ -1,0 +1,21 @@
+import java.util.*;
+class dog
+{
+ public static void main(String args[])
+  {
+    int t,i;
+     long s,v;
+     double tm;
+       Scanner in=new Scanner(System.in);
+     t=in.nextInt();
+     for(i=1;i<=t;i++)
+       {
+        s=in.nextLong();
+        v=in.nextLong();
+        tm=((double)(2*s))/((double)(3*v));
+      
+  System.out.printf("%.6f",tm);
+System.out.println();
+       }
+}
+}
